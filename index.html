@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>SolarTech Solutions</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            background: #f4f8fb;
+            color: #222;
+        }
+        header {
+            background: #1a3d2f;
+            color: #fff;
+            padding: 30px 0 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+        header p {
+            margin: 10px 0 0 0;
+            font-size: 1.2rem;
+            color: #c7e7c1;
+        }
+        nav {
+            background: #14522b;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 18px;
+            font-weight: 700;
+            transition: color 0.2s;
+        }
+        nav a:hover {
+            color: #ffe066;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .section-title {
+            color: #1a3d2f;
+            font-size: 2rem;
+            margin-bottom: 18px;
+            border-left: 5px solid #ffe066;
+            padding-left: 12px;
+        }
+        .brands, .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        .brand, .service {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(30,60,50,0.07);
+            flex: 1 1 220px;
+            min-width: 220px;
+            padding: 24px;
+            text-align: center;
+            transition: box-shadow 0.2s;
+        }
+        .brand img {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+            margin-bottom: 12px;
+        }
+        .brand h3, .service h3 {
+            margin: 10px 0 8px 0;
+            font-size: 1.1rem;
+            color: #14522b;
+        }
+        .brand p, .service p {
+            font-size: 0.98rem;
+            color: #444;
+        }
+        footer {
+            background: #1a3d2f;
+            color: #c7e7c1;
+            text-align: center;
+            padding: 18px 0;
+            font-size: 0.98rem;
+            margin-top: 40px;
+        }
+        @media (max-width: 800px) {
+            .brands, .services {
+                flex-direction: column;
+                gap: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SolarTech Solutions</h1>
+        <p>Empowering a Brighter, Greener Future</p>
+    </header>
+    <nav>
+        <a href="#brands">Brands</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="brands">
+            <h2 class="section-title">Our Brands</h2>
+            <div class="brands">
+                <div class="brand">
+                    <img src="https://img.icons8.com/color/96/solar-panel.png" alt="SunPower">
+                    <h3>SunPower</h3>
+                    <p>High-efficiency solar panels with industry-leading warranties and performance.</p>
+                </div>
+                <div class="brand">
+                    <img src="https://img.icons8.com/color/96/solar-energy.png" alt="EcoVolt">
+                    <h3>EcoVolt</h3>
+                    <p>Innovative inverters and smart energy management systems for homes and businesses.</p>
+                </div>
+                <div class="brand">
+                    <img src="https://img.icons8.com/color/96/battery.png" alt="GreenCell">
+                    <h3>GreenCell</h3>
+                    <p>Reliable solar batteries and storage solutions for uninterrupted power supply.</p>
+                </div>
+            </div>
+        </section>
+        <section id="services">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Residential Solar Installation</h3>
+                    <p>Custom solar solutions for homes, reducing energy bills and carbon footprint.</p>
+                </div>
+                <div class="service">
+                    <h3>Commercial Solar Projects</h3>
+                    <p>Large-scale solar installations for businesses, factories, and institutions.</p>
+                </div>
+                <div class="service">
+                    <h3>Maintenance & Monitoring</h3>
+                    <p>Comprehensive system maintenance and real-time performance monitoring.</p>
+                </div>
+                <div class="service">
+                    <h3>Consulting & Design</h3>
+                    <p>Expert advice, site assessment, and system design tailored to your needs.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2 class="section-title">Contact Us</h2>
+            <p>Ready to go solar? Email us at <a href="mailto:info@solartech.com">info@solartech.com</a> or call (123) 456-7890.</p>
+        </section>
+    </div>
+    <footer>
+        &copy; 2024 SolarTech Solutions. All rights reserved.
+    </footer>
+</body>
+</html>
